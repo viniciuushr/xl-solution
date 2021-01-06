@@ -14,3 +14,10 @@ Segue abaixo requisitos para execução deste projeto:
 * Flask
 * Pandas
 * Python MySQL Connector
+
+## Resultados
+Segue abaixo os requisitos de sistema que foram cumpridos e nao cumpridos.
+* :white_check_mark: O usuário fará upload de um arquivo .csv no formato fornecido em input_valid através de um formulário;
+* :white_check_mark: Os dados contidos no arquivo serão normalizados e salvos em um banco de dados relacional;
+* :interrobang: O usuário será redirecionado para a página com o inventário, que indicará o sucesso ou falha da importação (preferencialmente com o motivo, no caso de falha);
+* :white_check_mark: O usuário poderá visualizar os dados importados e buscá-los por fabricante, modelo e modalidade de venda (pré- ou pós-pago).
